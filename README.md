@@ -1,6 +1,6 @@
 # Adult Census Income Prediction 📊
 
-[cite_start]This project analyzes the "Adult" dataset from the 1994 US Census database to predict whether an individual's annual income exceeds $50,000[cite: 1, 10]. The analysis involves data cleaning, comprehensive exploratory data analysis (EDA), and the implementation and evaluation of several machine learning classification models.
+This project analyzes the "Adult" dataset from the 1994 US Census database to predict whether an individual's annual income exceeds $50,000. The analysis involves data cleaning, comprehensive exploratory data analysis (EDA), and the implementation and evaluation of several machine learning classification models.
 
 ---
 
@@ -8,10 +8,10 @@
 
 The dataset provides a rich collection of socio-economic and demographic features for predicting income levels.
 
-* [cite_start]**Source**: 1994 US Census Bureau Database [cite: 1, 8]
-* [cite_start]**Total Instances**: 48,842 records, split into a training set (32,561) and a testing set (16,281)[cite: 4].
-* [cite_start]**Cleaned Instances**: After removing records with unknown values, 45,222 instances remain[cite: 5].
-* [cite_start]**Features**: The dataset contains a mix of continuous and categorical attributes, including: `age`, `workclass`, `education-num`, `marital-status`, `occupation`, `relationship`, `race`, `sex`, `capital-gain`, `capital-loss`, and `hours-per-week`[cite: 48, 49, 50, 51, 52].
+* **Source**: 1994 US Census Bureau Database
+* **Total Instances**: 48,842 records, split into a training set (32,561) and a testing set (16,281).
+* **Cleaned Instances**: After removing records with unknown values, 45,222 instances remain.
+* **Features**: The dataset contains a mix of continuous and categorical attributes, including: `age`, `workclass`, `education-num`, `marital-status`, `occupation`, `relationship`, `race`, `sex`, `capital-gain`, `capital-loss`, and `hours-per-week`.
 
 ---
 
@@ -37,7 +37,7 @@ Several classification models were trained and evaluated. The performance was me
 | K-Nearest Neighbors   | 82.50%    |
 | **Random Forest** | **85.30%**|
 
-The **Random Forest** model was the top performer, achieving an accuracy of **85.3%**. [cite_start]This result is highly competitive with benchmark models documented for this dataset, such as C4.5 (84.46%) and NBTree (85.90%)[cite: 14].
+The **Random Forest** model was the top performer, achieving an accuracy of **85.3%**. This result is highly competitive with benchmark models documented for this dataset, such as C4.5 (84.46%) and NBTree (85.90%).
 
 ---
 
